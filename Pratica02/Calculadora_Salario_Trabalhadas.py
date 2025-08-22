@@ -12,7 +12,7 @@
 
 Numero_Funcionario = int(input("Digite o numero do funcionário: "))
 horas_trabalhadas = int(input("Digite o número de horas trabalhadas: "))
-valor_por_hora = int(input("Digite o valor recebido por hora em R$: "))
+valor_por_hora = float(input("Digite o valor recebido por hora em R$: "))
 
 Salario = horas_trabalhadas * valor_por_hora
 
