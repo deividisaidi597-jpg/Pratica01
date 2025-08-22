@@ -9,7 +9,6 @@ B = int(input("Digite o valor de B: "))
 C = int(input("Digite o valor de C: "))
 D = int(input("Digite o valor de D: "))
 
-
 # Calcula a diferença entre o produto de A*B e o produto de C*D
 DIFERENCA = A * B - C * D
 
