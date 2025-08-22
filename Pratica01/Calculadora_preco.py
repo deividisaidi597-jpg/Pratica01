@@ -17,5 +17,5 @@ Qtd = 3
 # Calcula o preço total da compra
 preco_total = preco_unitario * Qtd
 
-
+#Printando o resultados
 print("Produto: {} \nPreço unitário: R$ {:.2f} \nQuantidade: {} \nValor total do produto: R${:.2f}".format(nome_produto,preco_unitario,Qtd,preco_total))
