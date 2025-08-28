@@ -2,8 +2,8 @@
 
 
 def is_palindromo(texto):
-    texto_Limpo = "".join(char.lower() for char in texto if char.isalnum())
-    return texto_Limpo == texto_Limpo[::-1]
+    texto_limpo = "".join(char.lower() for char in texto if char.isalnum())
+    return texto_limpo == texto_limpo[::-1]
 
 
 frase = input("Digite em frase ou expressão: ")
