@@ -3,14 +3,14 @@
 from datetime import date
 
 
-def Calcular_Idade_dias(Ano_Nascimento):
+def Calcular_Idade_dias(ano_nascimento):
     ano_atual = date.today().year
-    idade = ano_atual - Ano_Nascimento
+    idade = ano_atual - ano_nascimento
     dias = idade * 365
     return dias
 
 
-Ano_Nascimento = int(input("Digite o seu ano de nascimento: "))
+ano_nascimento = int(input("Digite o seu ano de nascimento: "))
 
-resultado_dias = Calcular_Idade_dias(Ano_Nascimento)
+resultado_dias = Calcular_Idade_dias(ano_nascimento)
 print(f"Você tem aproximadamente {resultado_dias:.0f} dias de vida.")

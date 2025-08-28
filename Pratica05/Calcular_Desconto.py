@@ -9,12 +9,14 @@ def Calcular_Desconto(preco, porcentual_desconto):
     preco_final = preco - desconto
     return preco_final
 
+try:
+    preco_original = float(input("Digite o preço do produto: R$ ").replace(",", "."))
+    desconto = float(input("Digite o percentual de desconto (Ex: 15,5): ").replace(",", "."))
 
-preco_original = float(input("Digite o preço do produto (Ex: 250,75): R$ "))
-desconto = float(input("Digite o percentual de desconto (Ex: 15,5): "))
+    preco_com_desconto = Calcular_Desconto(preco_original, desconto)
 
-preco_com_desconto = Calcular_Desconto(preco_original, desconto)
-
-print(
-    f"O preço final com {desconto}% de desconto sobre R$ {preco_original:.2f} é R$ {preco_com_desconto:.2f}"
-)
+    print(
+        f"O preço final com {desconto}% de desconto sobre R$ {preco_original:.2f} é R$ {preco_com_desconto:.2f}"
+    )
+except ValueError:
+    print("Por favor, insira apenas números válidos (ex: 100.50).")
