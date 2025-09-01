@@ -1,0 +1,10 @@
+modelo,epoca,acuracia,tempo_execucao
+modelo_A,1,0.85,12.4
+modelo_A,2,0.87,11.8
+modelo_A,3,0.88,13.1
+modelo_B,1,0.80,10.2
+modelo_B,2,0.82,9.8
+modelo_B,3,0.83,10.5
+modelo_C,1,0.78,15.0
+modelo_C,2,0.79,14.7
+modelo_C,3,0.81,15.3
